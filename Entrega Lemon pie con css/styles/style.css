@@ -1,0 +1,81 @@
+/*GENERAL*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sacame-vinetas li {
+    list-style: none;
+   
+}
+
+header nav ul {
+    padding: 0;
+}
+
+.alineado-central {
+    text-align: center;
+}
+
+/*HEADER*/
+#lista li a{
+    text-decoration: none;
+    color: black;
+}
+
+.imagen-fondo {
+    background-image: url("../img/lemon-pie.png");
+    background-size: cover;
+    background-position: 0, 50px;
+    color:white;
+    height: 300px;
+    position: absolute;
+}
+
+h1, .texto-portada {
+    position: relative;
+    top: 180px;
+    color: white;    
+}
+
+
+
+
+/*MAIN*/
+   
+    .arreglar-lo-roto {
+        position: relative;
+        top: 310px;
+    }
+
+    i {
+        margin-right: 4px;
+    }
+
+    h3 {
+        font-style:italic;
+        font-weight: 900;
+    }
+    
+    p {
+        color: white;
+    }
+
+    .vinculo-merengue {
+        color: orange;
+    }
+
+
+/*FOTER*/
+
+footer {
+    background-color: lightgray;
+}
+
+footer p {
+    color: black; 
+    padding: 20px;
+}
+
+
+
