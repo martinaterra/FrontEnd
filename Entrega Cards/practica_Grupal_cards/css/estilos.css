@@ -1,0 +1,162 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400');
+
+/*GENERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+/*DIV*/
+
+.discount p{
+    background-color: #1CD1B0;
+    font-size: 25px;
+    padding: 3px 20px;
+}
+
+/*HEADER*/
+
+header{
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgb(0 0 0 / 25%);
+    display: block;
+    padding: 15px;
+    padding-left: 30px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: left;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/*MAIN*/
+
+main {
+    display: block;
+}
+
+.card{
+    border-radius: 50px;
+    margin: 5% 35% 10px;
+    position: relative;
+}
+
+.card .backImgBatman {
+    background-attachment: scroll;
+    background-image: url(/practica_Grupal_cards/img/bg-b.jpg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+}
+
+.card .backImgSuperman {
+    background-attachment: scroll;
+    background-image: url(/practica_Grupal_cards/img/bg-s.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+}
+
+.content{
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 350px;
+    position: relative;
+    text-align: center;
+}
+
+
+.content h2{
+    padding-top: 90px;
+}
+
+.content img{
+    border-radius: 50%;
+    height: 180px;
+    width: 180x;
+    position: absolute;
+    left: 34%;
+    top: -35%;
+}
+
+
+.texto {
+    border: 10px;
+    font-family: Roboto;
+    font-size: 20px;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 15px 20px;
+    text-align: left;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.button{
+    display: inline-block;
+    background-color:#00669F;
+    padding: 10px;
+    color: white;  
+    font-size: 14px;
+    width: 120px;
+    height: 20px;
+}
+
+i {
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    left: 10px;color: #CC2424;
+    width: 30px;
+    height: 30px;
+}
+
+.plusButton a {
+    font-size: 50px;
+    bottom: 35%;
+    color: #00669F;
+    position: fixed;
+    right: 3%;
+    text-decoration: none;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #00669F;
+    color: #FFFFFF;
+    margin-top: 5%;
+    padding: 20px;
+    text-align: center;
+}
