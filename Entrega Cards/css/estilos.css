@@ -63,7 +63,7 @@ main {
 
 .card .backImgBatman {
     background-attachment: scroll;
-    background-image: url(/practica_Grupal_cards/img/bg-b.jpg);
+    background-image: url(../img/bg-b.jpg);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: cover;
@@ -74,7 +74,19 @@ main {
 
 .card .backImgSuperman {
     background-attachment: scroll;
-    background-image: url(/practica_Grupal_cards/img/bg-s.jpg);
+    background-image: url(../img/bg-s.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+}
+
+.card .backImgWonder{
+    background-attachment: scroll;
+    background-image: url(../img/bg-wonderw.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -102,7 +114,7 @@ main {
     height: 180px;
     width: 180x;
     position: absolute;
-    left: 34%;
+    left: 38%;
     top: -35%;
 }
 
