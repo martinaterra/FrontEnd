@@ -4,49 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Martina Terraza</title>
+    <link rel="stylesheet" href="css/styles.css">
+
 </head>
 <body>
     <header>
-        <h1>DashBoard Martina Terraza</h1>           
-    </header>
+    <nav class="navegador">
+            <a href="Sobre Mi.html" target="_blank">Sobre mi</a>
+            <a href="Contacto.html" target="_blank">Contacto</a>
+    </nav>
+</header>
 <main>
-<section>
-    <h2>
-        CLASE 3 y 4
-    </h2>
-    <ul>
-        <li>
-            <a href="Entrega Lemon pie solo html/index.html">Lemon Pie</a>
-        </li>
-    </ul>
-    <h2>
-        CLASE 5
-    </h2>
-    <ul>
-        <li>
-            <a href="Entrega CV Batman/index.html">CV Batman</a>
-        </li>
-    </ul>
-    <h2>
-        CLASE 6
-    </h2>
-    <ul>
-        <li>
-            <a href="Entrega Lemon pie con css/index.html">Lemon pie con css</a>
-        </li>
-    </ul>
-    <h2>
-        CLASE 7
-    </h2>
-    <ul>
-        <li>
-            <a href="Entrega Cards/index.html">Cards Superheroes</a>
-        </li>
-    </ul>
-       
-
+    <section class="profile" id="profile">
+            <div class="skewed-profile">
+            </div>
+        <div class="profile__imgCont">
+            <div class="profile__imgCont__img">
+                <img src="./img/mtcv.JPG">
+        </div>
+        <div class="profile__container">
+            <h2 class="profile_container__title">¡Hola!</h2>
+            <p class="profile__container__title">Soy <span class="profile__container__name">Martina,</span>
+            </p>
+            <p class="profile__container__title">y aca guardo <span class="profile__container__adjectives">todos</span> </p>
+            <p class="profile__container__title">mis trabajos de <span class="profile__container__title__job">front-end</span> </p>
+            </div>
 </section>
+<section class="listado">
+    <div class="content">
+        <h3>LEMON PIE</h3>
+        <p class="texto">CLASE 3 y 4</p><a href="Entrega Lemon pie solo html/index.html">Lemon Pie</a>
+    </div>
+    <div class="content">
+        <h3>LEMON PIE CON CSS</h3>
+        <p class="texto">CLASE 6</p><a href="Entrega Lemon pie con css/index.html">Lemon pie con css</a>
+    </div>
+    <div class="content">
+        <h3>CV BATMAN</h3>
+        <p class="texto">CLASE 5</p><a href="Entrega CV Batman/index.html">CV Batman</a>
+    </div>
+    <div class="content">
+        <h3>CARDS Superheroes</h3>
+        <p class="texto">CLASE 7</p><a href="Entrega Cards/index.html">Cards Superheroes</a>
+    </div>
+</section>      
 </main>
 </body>
-
+<footer class="footer">
+    <span class="footer__copy">Realizado con <span>❤️</span> por Martina</a> © 2021</span>
+    </footer>
 </html>
