@@ -6,7 +6,6 @@
 * {
     box-sizing: border-box;
     text-decoration: none;
-    list-style-type: none;
     padding: 0;
     margin: 0;
     color:white;
@@ -49,23 +48,18 @@ header {
 
 .profile__container__name {
     font-size: 30px;
-    color: #2d626c;
     font-weight: 700;
-    display: inline;
     background-color: #c66aab;
     color: #f3e8ea;
-    width: 100%;
     padding: 0 10px;
     border-radius: 15px;
 }
 
-.profile__container__adjectives {
+.profile__container__color {
     font-size: 30px;
     height: 60px;
-    display: inline;
     color: #c66aab;
     margin: 10px auto;
-    border-radius: 15px;
 }
 
 .profile__container__title__job {
@@ -81,7 +75,6 @@ h2 {
     font-style: normal;
     font-weight: 300;
     line-height: 48px;
-    letter-spacing: 0em;
     text-align: left; 
     color: #2d626c;
 }
