@@ -16,7 +16,7 @@
 /*HEADER*/
 
 header {
-    background-color:plum;
+    background-color:#F99BCD;
     box-shadow: 0 10px 7px rgb(0 0 0 / 25%);
     position: sticky;
     top: 0;
@@ -31,14 +31,6 @@ header {
     z-index: -1;
 }
 
- .skewed-profile {
-    position: relative;
-    top: 0.3px;
-    right: 0;
-    left: 0;
-    background-color: #f3e8ea;
-} 
-
 .profile__container__title {
     font-size: 30px;
     color: #2d626c;
@@ -49,7 +41,7 @@ header {
 .profile__container__name {
     font-size: 30px;
     font-weight: 700;
-    background-color: #c66aab;
+    background-color: #ED7FB9;
     color: #f3e8ea;
     padding: 0 10px;
     border-radius: 15px;
@@ -58,7 +50,7 @@ header {
 .profile__container__color {
     font-size: 30px;
     height: 60px;
-    color: #c66aab;
+    color: #ED7FB9;
     margin: 10px auto;
 }
 
