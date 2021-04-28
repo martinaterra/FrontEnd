@@ -21,11 +21,11 @@ h4{
     text-align: center;
 }
 
-.columna {
+.colum {
     display: inline-block;
     color: white;
     font-size: 14px;
-    margin: 20px 5px 0 20px;
+    margin: 30px 50px 0 20px;
     padding-bottom: 30px;
     width: 40%;
 }
@@ -38,7 +38,7 @@ h4{
     text-align: center;
 }
 
-.Uno input {
+.one input {
     border-radius: 10px;
     border: none;
     height: 100%;
@@ -55,11 +55,11 @@ textarea:focus{
     background-color: rgb(219, 219, 219) ;
 }
 
-.Dos {
+.two {
     margin-top: -30px;
 }
 
-.Dos select{
+.two select{
     border-radius: 10px;
     border: none;
     display: inline-block;
@@ -69,7 +69,7 @@ textarea:focus{
     padding: 5%;
 }
 
-.Dos p{
+.two p{
     margin: 25px 0 9px ;
 }
 
@@ -103,10 +103,10 @@ textarea {
     text-align: center;
     text-decoration: none;
     width: 300px;
-    transition: ease 0.7s;
+    transition: ease 0.6s;
 }
 
 .enviar:hover{
     background-color:#001D2D;
-    transition: ease 0.7s;
+    transition: ease 0.6s;
 }
