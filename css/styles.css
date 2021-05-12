@@ -24,11 +24,10 @@ header {
 }
 
 .profile {
-    height:100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: -1;
+    margin-top: 10px;
 }
 
 .profile__container__title {
@@ -100,7 +99,6 @@ nav a {
 img {
     border-radius: 200px;
     z-index: 1;
-    margin-top: -200px;
     width: 350px;
     height: 350px;
     top: 200px;
@@ -111,8 +109,10 @@ main {
 }
 
 .listado{
-    position: relative;
-    display:inline-block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
 }
      
 .content{
